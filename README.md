@@ -5,6 +5,7 @@ Contains simulation files and analysis scripts for processing and generating fig
 1. `getcontacts_interaction/` - uses the `getcontacts.io` package to identify contacts.
 1. `hbond_prob/` - distance calculation between hydrogen bond acceptor and donor atoms.
 1. `met-aromatic_interaction/` - distance and angle calculation between methionine sulfur atoms and aromatic residues.
-1. `prmtop` - AMBER topology and parameter for production simulations and analysis.
-1. `ref` - reference structure file in `xtc` format.
-1. `rmsd-rmsf-CA` - RMSD and RMSF calculation using the `CPPTRAJ` module.
+1. `prmtop/` - AMBER topology and parameter for production simulations and analysis.
+1. `ref/` - reference structure file in `xtc` format.
+1. `rmsd-rmsf-CA/` - RMSD and RMSF calculation using the `CPPTRAJ/` module.
+1. `a5b1_antibody_MD_analysis.ipynb` - python notebook containing scripts to generate associated figures.
