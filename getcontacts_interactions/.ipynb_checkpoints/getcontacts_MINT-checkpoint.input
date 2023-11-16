@@ -1,0 +1,12 @@
+prmtop=a5b1_mint-strip.prmtop
+
+for i in *mint*xtc; do \
+get_dynamic_contacts.py --topology ${prmtop} --trajectory ${i} --itypes sb pc ps ts hb --sele "resid 1 to 450" --sele2 "resid 698 to 933" --output ${i/.xtc/-contacts.tsv}
+
+get_contact_frequencies.py --input_files ${i/.xtc/-contacts.tsv} --output_file ${i/.xtc/freq.tsv};
+:
+done
+
+
+
+

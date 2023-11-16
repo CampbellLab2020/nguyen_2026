@@ -1,0 +1,5 @@
+System,a5b1_resn,a5b1_resid,subunit,resid1_mdtraj,atom1,fab_resid,fab_resn,subunit2,resid2_mdtraj,atom2,type
+BIIG2,F,155,b,155,CG CE2 CE1,M,103,H,799,SD,ring-sulf
+BIIG2,W,157,b,157,CD2 CZ2 CZ3,M,101,H,797,SD,ring-sulf
+
+
