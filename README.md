@@ -18,6 +18,9 @@
 
 *Structure* 2026. DOI: [https://10.1016/j.str.2026.08.001](https://doi.org/10.1016/j.str.2026.08.001)
 
+<img src="https://www.cell.com/cms/10.1016/j.str.2026.08.001/asset/da2d8bbc-2bab-476b-9a37-322842cfb7a1/main.assets/ga1_lrg.jpg" width = 400>
+
+
 ---
 This repository contains simulation files and analysis scripts for processing and generating figures related to MD simulations of &alpha;5&beta;1:Fab complex.
 
